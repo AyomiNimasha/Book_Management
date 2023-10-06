@@ -1,0 +1,17 @@
+###
+GET http://localhost:3000/books
+###
+
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "x",
+    "author": "y",
+    "isbn": 25
+}
+
+###
+
+DELETE http://localhost:3000/books/25
