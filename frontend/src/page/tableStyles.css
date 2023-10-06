@@ -1,0 +1,29 @@
+.table-head-row{
+    background-color: rgb(201, 251, 251);
+    color:  blue;;
+}
+
+.table-data{
+    padding: 2px;
+    text-align: center;
+}
+.table-data-icon{
+    color: red;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+.table-topic{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.table-container{
+    width: 90%;
+    flex-direction: column;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
